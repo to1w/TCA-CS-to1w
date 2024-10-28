@@ -11,7 +11,7 @@ def div(a,b):
  if b != 0:
         return a / b
     else:
-        return "Error"
+        return "Cannot divide by zero"
       
 def sq(a):
   return a*a
