@@ -27,15 +27,15 @@ if operation in ['+', '-', '*', '/']:
     if operation == '+':
         print("Result:", add(a, b))
     elif operation == '-':
-        print("Result:", subtract(a, b))
+        print("Result:", sub(a, b))
     elif operation == '*':
-        print("Result:", multiply(a, b))
+        print("Result:", mult(a, b))
     elif operation == '/':
-        print("Result:", divide(a, b))
-elif operation == '^2':
-    print("Result:", square(a))
-elif operation == '^b':
+        print("Result:", div(a, b))
+elif operation == '*a':
+    print("Result:", sq(a))
+elif operation == '**b':
     b = float(input("Enter the exponent: "))
-    print("Result:", exponent(a, b))
+    print("Result:", exp(a, b))
 else:
     print("Invalid operation selected")
